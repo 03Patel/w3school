@@ -1,0 +1,458 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+.conatiner {
+    height: 100vh;
+    width: 100%;
+}
+.navbar{
+   
+    height: 55px;
+  display: flex;
+  background-color: white;
+  
+ 
+
+}
+.fixed{
+    position: fixed;
+    z-index: 99;
+}
+
+.conatiner .navbar .nav img{
+height: 50px;
+
+margin-left: 10px;
+}
+
+.conatiner .navbar .nav a{
+text-decoration: none;
+position: relative;
+left: 20px;
+margin-left: 40px;
+font-size: 1.1em;
+top: -20px;
+color: black;
+}
+.conatiner .navbar .nav a:hover{
+    text-decoration: underline;
+    
+}
+
+.conatiner .navbar .nav .search img{
+    height: 15px;
+    position: relative;
+    top: 7px;
+    left: 60px;
+    
+   
+}
+.conatiner .navbar .nav .search{
+    height: 30px;
+    width: 180px;
+    position: relative;
+    top: -45px;
+    left: 650px;
+    border: 1px solid rgb(184, 181, 181);
+    border-radius: 30px;
+
+}
+.conatiner .navbar .nav .search span{
+    color: rgb(87, 87, 87);
+    position: relative;
+    top: 5px;
+    left: 15px;
+}
+.conatiner .navbar .bar a{
+ position: relative;
+ text-decoration: none;
+ margin-left: 30px;
+ color: black;
+ left: 380px;
+ top: 11px;
+ font-size: 1.1em;
+
+}
+.conatiner .navbar .bar .button{
+    height: 40px;
+    width: 90px;
+    font-size: 1.1em;
+    margin-right: -23px;
+    position: relative;
+    left: 430px;
+    top: 9px;
+    border-radius: 30px;
+    background-color: white;
+    border: 1px solid rgb(237, 222, 222);
+}
+.conatiner .navbar .bar .button {
+    background-color: #04aa6d;
+}
+#sign{
+    background-color:#04aa6d;
+    z-index: 99;
+}
+#log:hover{
+    background-color: #7cfacc;
+}
+.conatiner .navbar .bar a img{
+    height: 20px;
+    position: relative;
+    right: 10px;
+    top: 2px;
+}
+ .tab{
+    height: 30px;
+    width: 150%;
+
+    background-color: #282a35;
+   border: 2px solid #282a35;
+   
+}
+.tab a{
+    text-decoration: none;
+    margin-left: 24px;
+    color: white;
+    position: relative;
+    top: 6px;
+}
+.tab a:hover{
+    text-decoration: underline;
+    background-color:black;
+    
+}
+.conatiner .case1{
+    position: relative;
+    top: 85px;
+    height: 75vh;
+    
+
+}
+.conatiner .case1 h1{
+    color: white;
+    font-size: 60px;
+    position: relative;
+    top: 130px;
+    width: 500px;
+    left: 550px;
+}
+.conatiner .case1 h2{
+    color: #fff4a3;
+    font-size: 25px;
+    position: relative;
+    top: 140px;
+    left: 500px;
+   
+    width: 550px;
+}
+
+.conatiner .case1 .icon{
+  height: 45px;
+
+  border-radius: 30px 0px 0px 30px;
+  width: 380px;
+  position: relative;
+  background-color: white;
+  left: 500px;
+
+}
+.conatiner .case1 .icon span{
+    position: relative;
+    top: 14px;
+    left: 40px;
+    font-size: 1.15em;
+    color: rgb(44, 42, 42);
+}
+.conatiner .case1 .search{
+    display: flex;
+    position: relative;
+    top: 180px;
+}
+.conatiner .case1 .sec{
+    height: 45px;
+   
+    width: 100px;
+    position: relative;
+    border-radius: 0px 30px 30px 0px;
+    left: 500px;   
+    background-color: #04aa6d;
+}
+.conatiner .case1 .sec:hover{
+    background-color: #7cfacc;
+}
+.conatiner .case1 .sec img{
+    height: 20px;
+    position: relative;
+    top: 12px;
+    left:46px;
+}
+.conatiner .main{
+    background-color: #282a35;
+    height: 85vh;
+}
+
+.conatiner .case1 .not{
+    color: white;
+    text-decoration: underline;
+    font-size: 25px;
+    position: relative;
+    top: 230px;
+    left: 600px;
+    width: 350px;
+}
+.conatiner .case1 .not:hover{
+    color: #fff4a3;
+}
+.conatiner .case2{
+    height: 60px;
+    position: relative;
+    top: 40px;
+}
+.conatiner .case3{
+    height: 80vh;
+    background-color: #d9eee1;
+    display: flex;
+}
+
+.case3 .main-content{
+    height: 400px;
+    width: 350px;
+   
+    position: relative;
+    top: 100px;
+    left: 350px;
+    line-height: 80px;
+    
+}
+.case3 .main-content h1{
+     font-size: 6em;
+   font-weight: 700;
+   text-align: center;
+}
+.case3 .main-content h3{
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.case3 .main-content li {
+    list-style: none;
+    line-height: 70px;
+    position: relative;
+   text-align: center;
+   
+
+}
+.case3 .main-content .btn{
+    height: 50px;
+    width: 200px;
+    font-size: 1.3em;
+    border-radius: 30px;
+    border: none;
+
+}
+#le{
+background-color: #04aa6d;
+}
+#le:hover{
+    background-color: #72e5bb;
+}
+
+#ve{
+background-color: #fff4a3;
+}
+#ve:hover{
+    background-color: #f1eab4;
+}
+#ht{
+background-color: #000000;
+color:white;
+}
+#ht:hover{
+background: #353434;
+}
+#ge{
+background-color: #ffc0c7;
+}
+#ge:hover{
+    background-color: #f4d5d8;
+}
+
+.case3 .content{
+    height: 450px;
+    width: 400px;
+  border-radius: 10px;
+  border: 2px solid rgb(164, 163, 163);
+    position: relative;
+    left: 500px;
+    top: 95px;
+    background-color: #e7e9eb;
+    z-index: 88;
+}
+.case3 .content h2{
+    position: relative;
+    top: 30px;
+    left: 20px;
+}
+.mai{
+    display: flex;
+}
+.case3 .content .con{
+    height: 320px;
+    width: 5px;
+  
+    background-color: #04aa6d;
+    position: relative;
+    left: 20px;
+    top: 40px;
+}
+.case3 .content .mai .doc{
+    position: relative;
+    height: 320px;
+    width: 340px;
+  background-color: white;
+    top: 40px;
+    left: 20px;
+
+}
+#e{
+    position: relative;
+    height: 40px;
+    top: 50px;
+    left: 20px;
+    width: 200px;
+    font-size: 1.2em;
+    border-radius: 30px;
+    background-color: #04aa6d;
+    border: none;
+}
+#e:hover{
+    background-color: #7cfacc;
+}
+.case3 .content .mai .doc .stu{
+    line-height: 30px;
+    position: relative;
+    left: 10px;
+}
+.conatiner .case4{
+    height: 80vh;
+    display: flex;
+    width: 99.8%;
+    border: 2px solid blue;
+    background-color: #fff4a3;
+}
+
+.conatiner .case4 .Main-content{
+    height: 450px;
+    width: 350px;
+    position: relative;
+    top: 100px;
+    left: 350px;
+    
+    line-height: 80px;
+   
+}
+.conatiner .case4 .Main-content h1{
+    font-size: 6em;
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+    font-family: 'Source Sans Pro', sans-serif;
+    top: 20px;
+}
+.conatiner .case4 .Main-content h3{
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    position: relative;
+    top: 30px;
+}
+.conatiner .case4 .Main-content li{
+    list-style: none;
+
+}
+.conatiner .case4 .Main-content .btn{
+    height: 50px;
+    width: 200px;
+    font-size: 1.3em;
+    border-radius: 30px;
+    border: none;
+    position: relative;
+    left:75px;
+    top: 30px;
+}
+.conatiner .case4 .Main-content a{
+    text-decoration: none;
+    color: white;
+}
+#Le{
+background-color: #04aa6d;
+}
+#Le:hover{
+    background-color: #72e5bb;
+}
+
+
+#Css{
+background-color: #000000;
+color:white;
+}
+#Css:hover{
+background: #353434;
+}
+#Get{
+background-color: #ffc0c7;
+}
+#Get:hover{
+    background-color: #f4d5d8;
+}
+.conatiner .case4 .example{
+    border: 2px black;
+    height: 430px;
+    width: 410px;
+    position: relative;
+    top:120px;
+    left: 500px;
+    background-color: #e7e9eb;
+    border-radius: 15px;
+
+}
+.conatiner .case4 .example h1{
+    position: relative;
+    top: 20px;
+    left: 30px;
+    font-size: 1.9em;
+}
+.conatiner .case4 .example .Exam{
+  
+    height: 300px; 
+    width: 360px;
+    position: relative;
+    left: 25px;
+    top: 30px;
+    display: flex;
+    
+}
+.conatiner .case4 .example .Exam .Ex{
+    
+    height: 300px; 
+    width: 5px;
+    position: relative;
+    background-color: #04aa6d;
+
+
+}
+.conatiner .case4 .example .Exam .E{
+    height: 180xp;
+    width: 400px;
+    background-color: white;
+    position: relative;
+
+}
+.conatiner .case4 .example .Exam .E span{
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+
